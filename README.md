@@ -9,6 +9,8 @@ This project identifies all NYC Yellow Taxi trips that exceed the 90th percentil
 ### Requirements
 
 - **Python 3.13+** (or [pyenv](https://github.com/pyenv/pyenv#installation))
+- **pipenv** (only needed for local execution with `make setup` / `make execute`)
+  - install with `pip install pipenv` (or `brew install pipenv` on macOS)
 - **Make** ([install guide](https://leangaurav.medium.com/how-to-setup-install-gnu-make-on-windows-324480f1da69))
 - **Docker** ([install Docker](https://docs.docker.com/engine/install/))
 
